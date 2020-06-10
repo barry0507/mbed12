@@ -64,7 +64,7 @@ int main() {
 
     servo_control(-28.164015336698355);
 
-
+    last = 0;
     steps = 0;
 
     t.reset();
@@ -83,7 +83,8 @@ int main() {
     pc.printf("%1.3f\r\n", (float)steps*6.5*3.14/32/time);
     servo_control(55.54607794041457);
 
-
+    last = 0;
+    steps=0;
     
 
     t.reset();
