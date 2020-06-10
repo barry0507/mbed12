@@ -26,11 +26,11 @@ int main() {
 
     while(1) {
 
-        servo_control(100);
+        servo_control(0);
 
         wait(2);
 
-        servo_control(-100);
+        servo_control(0);
 
         wait(2);
 
